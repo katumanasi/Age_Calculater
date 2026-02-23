@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculater</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Age Calculater</h1>
+      <p>Enter your date of birth to calulate exact age</p>
+      <div class="input-box">
+        <label>Select your date of birth</label>
+        <input type="date" id="dob" />
+        <button onclick="calculateAge()">Calculate My Age</button>
+      </div>
+
+      <div class="result" id="result">
+        <h2>Your Age</h2>
+        <p id="ageOutput"></p>
+
+        <h3>Next BirthDate In</h3>
+        <p id="birthcountdown"></p>
+
+        <h3>Zodiac Sign</h3>
+        <p id="zodiacsign"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

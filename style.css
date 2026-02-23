@@ -1,0 +1,83 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  color: whitesmoke;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.container:hover {
+  transform: scale(1.03);
+}
+
+h1 {
+  color: #fcf69c;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #2f4032;
+  font-size: 1.2rem;
+}
+label {
+  color: #fcf69c;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a61205;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff4757;
+}
+
+.result {
+  margin-top: 10px;
+  /* display: none; */
+  animation: fadeIn 0.5s ease-in-out;
+  color: whitesmoke;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
